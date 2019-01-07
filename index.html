@@ -20,29 +20,57 @@
 </head>
 
 <body>
-	<article>
-		<header></header>
-	</article>
-	<nav></nav>
+    <article>
+        <header></header>
+    </article>
+    <nav></nav>
     <h1>Welcome to my first blog!</h1>
     <div>
-    	<video controls autoplay width="600" height="400" src="/MOV00826.avi"></video>
-    	<img src="images/welcome.png" width="1000" height="400" alt="Alternative picture">
+        <video controls autoplay width="600" height="400" src="VID_20181006_224851.mp4" poster="images/video.png"></video>
+        <img src="images/welcome.png" width="1000" height="400" alt="Alternative picture">
         <p class="paragraph">
             On this page You can <span>read</span> some useful information
             about my life and my <a target="blank" href="pages/friends.html" title="Description of the page">friends</a>, and maybe <em>write Your personal opinion</em> about it.
         </p>
         <h2 id="header2">Map of site</h2>
     </div>
+    <table>
+    	<caption>Cities, that exist.</caption>
+        <tr>
+            <th>City</th>
+            <th>Date</th>
+        </tr>
+        <tr>
+        	<td>Valhalla</td>
+        	<td>1200</td>
+        </tr>
+        <tr>
+        	<td>Engels</td>
+        	<td>2019</td>
+        </tr>
+    </table>
+    <select>
+    	<option value="Spice">Spices</option>
+    	<option value="Bolivia">Spices of Bolivia</option>
+    </select>
+
+    <br>
+    <textarea name="comments"></textarea>
+
+    <form action="http://wickedlysmart.com/hfhtmlcss/contest.php" method="POST">
+    	<p>
+    		Name: <input type="text" name="firstname" value=""/><br>
+    		<input type="submit"/>
+    	</p>
+    </form>
 
     <div id="tableContainer">
-    	<div id="tableRow">
-    		<div id="main">Here is the left</div>
-    		<div id="sidebar">Here is the right</div>
-    	</div>
+        <div id="tableRow">
+            <div id="main">Here is the left</div>
+            <div id="sidebar">Here is the right</div>
+        </div>
     </div>
     <time datetime="01-01-2019">06/01/2019</time>
-
     <p>
         You'll find us in the centre of Emgels.
         Join us.
